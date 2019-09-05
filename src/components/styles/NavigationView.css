@@ -1,0 +1,23 @@
+.NavigationView{
+     width:20%;
+     height:100%;
+     background:inherit;
+ }
+ .NavigationView ul{
+     
+     list-style:none;
+     padding:0px;
+     margin:0px
+ }
+ .NavigationView ul li a{
+     display:flex;
+     justify-content:center;
+     padding:20px 0px;
+     text-decoration:none;
+     color:aliceblue;
+border-bottom: 1px #36b6ff solid
+ }
+ .NavigationView ul li a:hover{
+     background:#ffefff66
+ }
+ 

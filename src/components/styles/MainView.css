@@ -1,0 +1,50 @@
+.MainView{
+    width:100%;
+    height:667px;
+    background:inherit;
+    display:flex;
+}
+.MainSectionView{
+    width:80%;
+    height:100%;
+    background:white;
+    display:flex;
+    flex-direction:column;
+
+    
+}
+.SectionView{
+    display:flex;
+    flex-direction:column;
+    padding: 20px 40px;
+}
+
+.SectionView input{
+        height: 40px;
+    font-size: 15px;
+
+}
+.SectionView input,.SectionView select{     
+    margin: 10px 10px;
+    height: 40px;
+}
+.SectionView button{
+    margin: 10px auto;
+height: 40px;
+}
+.OutputView,.SectionView,.HeadingView{
+    padding-left:40px
+}
+.OutputView p{
+    margin-bottom: 10px;
+}
+.OutputView p.OutputPara{
+display: flex;
+margin-right: 30px;
+padding: 20px;
+height: 180px;
+border:1px #ecebeb solid;
+flex-direction: column;
+    overflow: scroll;
+} 
+

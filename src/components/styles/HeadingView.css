@@ -1,0 +1,14 @@
+ .HeadingView{
+         background: aliceblue;
+     padding: 40px;
+         display: flex;
+     flex-direction: column;
+ }
+ .HeadingView h3.heading{
+     font-weight:400;
+     margin: 0px 0px 10px 10px;
+ }
+ .HeadingView p.explainHeading{
+     font-weight:100;
+ }
+
